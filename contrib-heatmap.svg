@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 865 205" width="865" height="205">
+<style>
+  .cell { opacity: 0; animation: reveal 0.4s ease forwards; }
+  .c0 { animation-delay: 0.000s; }
+  .c1 { animation-delay: 0.012s; }
+  .c2 { animation-delay: 0.024s; }
+  .c3 { animation-delay: 0.036s; }
+  .c4 { animation-delay: 0.048s; }
+  .c5 { animation-delay: 0.060s; }
+  .c6 { animation-delay: 0.072s; }
+  .c7 { animation-delay: 0.012s; }
+  .c8 { animation-delay: 0.024s; }
+  .c9 { animation-delay: 0.036s; }
+  .c10 { animation-delay: 0.048s; }
+  .c11 { animation-delay: 0.060s; }
+  .c12 { animation-delay: 0.072s; }
+  .c13 { animation-delay: 0.084s; }
+  .c14 { animation-delay: 0.024s; }
+  .c15 { animation-delay: 0.036s; }
+  .c16 { animation-delay: 0.048s; }
+  .c17 { animation-delay: 0.060s; }
+  .c18 { animation-delay: 0.072s; }
+  .c19 { animation-delay: 0.084s; }
+  .c20 { animation-delay: 0.096s; }
+  .c21 { animation-delay: 0.036s; }
+  .c22 { animation-delay: 0.048s; }
+  .c23 { animation-delay: 0.060s; }
+  .c24 { animation-delay: 0.072s; }
+  .c25 { animation-delay: 0.084s; }
+  .c26 { animation-delay: 0.096s; }
+  .c27 { animation-delay: 0.108s; }
+  .c28 { animation-delay: 0.048s; }
+  .c29 { animation-delay: 0.060s; }
+  .c30 { animation-delay: 0.072s; }
+  .c31 { animation-delay: 0.084s; }
+  .c32 { animation-delay: 0.096s; }
+  .c33 { animation-delay: 0.108s; }
+  .c34 { animation-delay: 0.120s; }
+  .c35 { animation-delay: 0.060s; }
+  .c36 { animation-delay: 0.072s; }
+  .c37 { animation-delay: 0.084s; }
+  .c38 { animation-delay: 0.096s; }
+  .c39 { animation-delay: 0.108s; }
+  .c40 { animation-delay: 0.120s; }
+  .c41 { animation-delay: 0.132s; }
+  .c42 { animation-delay: 0.072s; }
+  .c43 { animation-delay: 0.084s; }
+  .c44 { animation-delay: 0.096s; }
+  .c45 { animation-delay: 0.108s; }
+  .c46 { animation-delay: 0.120s; }
+  .c47 { animation-delay: 0.132s; }
+  .c48 { animation-delay: 0.144s; }
+  .c49 { animation-delay: 0.084s; }
+  .c50 { animation-delay: 0.096s; }
+  .c51 { animation-delay: 0.108s; }
+  .c52 { animation-delay: 0.120s; }
+  .c53 { animation-delay: 0.132s; }
+  .c54 { animation-delay: 0.144s; }
+  .c55 { animation-delay: 0.156s; }
+  .c56 { animation-delay: 0.096s; }
+  .c57 { animation-delay: 0.108s; }
+  .c58 { animation-delay: 0.120s; }
+  .c59 { animation-delay: 0.132s; }
+  .c60 { animation-delay: 0.144s; }
+  .c61 { animation-delay: 0.156s; }
+  .c62 { animation-delay: 0.168s; }
+  .c63 { animation-delay: 0.108s; }
+  .c64 { animation-delay: 0.120s; }
+  .c65 { animation-delay: 0.132s; }
+  .c66 { animation-delay: 0.144s; }
+  .c67 { animation-delay: 0.156s; }
+  .c68 { animation-delay: 0.168s; }
+  .c69 { animation-delay: 0.180s; }
+  .c70 { animation-delay: 0.120s; }
+  .c71 { animation-delay: 0.132s; }
+  .c72 { animation-delay: 0.144s; }
+  .c73 { animation-delay: 0.156s; }
+  .c74 { animation-delay: 0.168s; }
+  .c75 { animation-delay: 0.180s; }
+  .c76 { animation-delay: 0.192s; }
+  .c77 { animation-delay: 0.132s; }
+  .c78 { animation-delay: 0.144s; }
+  .c79 { animation-delay: 0.156s; }
+  .c80 { animation-delay: 0.168s; }
+  .c81 { animation-delay: 0.180s; }
+  .c82 { animation-delay: 0.192s; }
+  .c83 { animation-delay: 0.204s; }
+  .c84 { animation-delay: 0.144s; }
+  .c85 { animation-delay: 0.156s; }
+  .c86 { animation-delay: 0.168s; }
+  .c87 { animation-delay: 0.180s; }
+  .c88 { animation-delay: 0.192s; }
+  .c89 { animation-delay: 0.204s; }
+  .c90 { animation-delay: 0.216s; }
+  .c91 { animation-delay: 0.156s; }
+  .c92 { animation-delay: 0.168s; }
+  .c93 { animation-delay: 0.180s; }
+  .c94 { animation-delay: 0.192s; }
+  .c95 { animation-delay: 0.204s; }
+  .c96 { animation-delay: 0.216s; }
+  .c97 { animation-delay: 0.228s; }
+  .c98 { animation-delay: 0.168s; }
+  .c99 { animation-delay: 0.180s; }
+  .c100 { animation-delay: 0.192s; }
+  .c101 { animation-delay: 0.204s; }
+  .c102 { animation-delay: 0.216s; }
+  .c103 { animation-delay: 0.228s; }
+  .c104 { animation-delay: 0.240s; }
+  .c105 { animation-delay: 0.180s; }
+  .c106 { animation-delay: 0.192s; }
+  .c107 { animation-delay: 0.204s; }
+  .c108 { animation-delay: 0.216s; }
+  .c109 { animation-delay: 0.228s; }
+  .c110 { animation-delay: 0.240s; }
+  .c111 { animation-delay: 0.252s; }
+  .c112 { animation-delay: 0.192s; }
+  .c113 { animation-delay: 0.204s; }
+  .c114 { animation-delay: 0.216s; }
+  .c115 { animation-delay: 0.228s; }
+  .c116 { animation-delay: 0.240s; }
+  .c117 { animation-delay: 0.252s; }
+  .c118 { animation-delay: 0.264s; }
+  .c119 { animation-delay: 0.204s; }
+  .c120 { animation-delay: 0.216s; }
+  .c121 { animation-delay: 0.228s; }
+  .c122 { animation-delay: 0.240s; }
+  .c123 { animation-delay: 0.252s; }
+  .c124 { animation-delay: 0.264s; }
+  .c125 { animation-delay: 0.276s; }
+  .c126 { animation-delay: 0.216s; }
+  .c127 { animation-delay: 0.228s; }
+  .c128 { animation-delay: 0.240s; }
+  .c129 { animation-delay: 0.252s; }
+  .c130 { animation-delay: 0.264s; }
+  .c131 { animation-delay: 0.276s; }
+  .c132 { animation-delay: 0.288s; }
+  .c133 { animation-delay: 0.228s; }
+  .c134 { animation-delay: 0.240s; }
+  .c135 { animation-delay: 0.252s; }
+  .c136 { animation-delay: 0.264s; }
+  .c137 { animation-delay: 0.276s; }
+  .c138 { animation-delay: 0.288s; }
+  .c139 { animation-delay: 0.300s; }
+  .c140 { animation-delay: 0.240s; }
+  .c141 { animation-delay: 0.252s; }
+  .c142 { animation-delay: 0.264s; }
+  .c143 { animation-delay: 0.276s; }
+  .c144 { animation-delay: 0.288s; }
+  .c145 { animation-delay: 0.300s; }
+  .c146 { animation-delay: 0.312s; }
+  .c147 { animation-delay: 0.252s; }
+  .c148 { animation-delay: 0.264s; }
+  .c149 { animation-delay: 0.276s; }
+  .c150 { animation-delay: 0.288s; }
+  .c151 { animation-delay: 0.300s; }
+  .c152 { animation-delay: 0.312s; }
+  .c153 { animation-delay: 0.324s; }
+  .c154 { animation-delay: 0.264s; }
+  .c155 { animation-delay: 0.276s; }
+  .c156 { animation-delay: 0.288s; }
+  .c157 { animation-delay: 0.300s; }
+  .c158 { animation-delay: 0.312s; }
+  .c159 { animation-delay: 0.324s; }
+  .c160 { animation-delay: 0.336s; }
+  .c161 { animation-delay: 0.276s; }
+  .c162 { animation-delay: 0.288s; }
+  .c163 { animation-delay: 0.300s; }
+  .c164 { animation-delay: 0.312s; }
+  .c165 { animation-delay: 0.324s; }
+  .c166 { animation-delay: 0.336s; }
+  .c167 { animation-delay: 0.348s; }
+  .c168 { animation-delay: 0.288s; }
+  .c169 { animation-delay: 0.300s; }
+  .c170 { animation-delay: 0.312s; }
+  .c171 { animation-delay: 0.324s; }
+  .c172 { animation-delay: 0.336s; }
+  .c173 { animation-delay: 0.348s; }
+  .c174 { animation-delay: 0.360s; }
+  .c175 { animation-delay: 0.300s; }
+  .c176 { animation-delay: 0.312s; }
+  .c177 { animation-delay: 0.324s; }
+  .c178 { animation-delay: 0.336s; }
+  .c179 { animation-delay: 0.348s; }
+  .c180 { animation-delay: 0.360s; }
+  .c181 { animation-delay: 0.372s; }
+  .c182 { animation-delay: 0.312s; }
+  .c183 { animation-delay: 0.324s; }
+  .c184 { animation-delay: 0.336s; }
+  .c185 { animation-delay: 0.348s; }
+  .c186 { animation-delay: 0.360s; }
+  .c187 { animation-delay: 0.372s; }
+  .c188 { animation-delay: 0.384s; }
+  .c189 { animation-delay: 0.324s; }
+  .c190 { animation-delay: 0.336s; }
+  .c191 { animation-delay: 0.348s; }
+  .c192 { animation-delay: 0.360s; }
+  .c193 { animation-delay: 0.372s; }
+  .c194 { animation-delay: 0.384s; }
+  .c195 { animation-delay: 0.396s; }
+  .c196 { animation-delay: 0.336s; }
+  .c197 { animation-delay: 0.348s; }
+  .c198 { animation-delay: 0.360s; }
+  .c199 { animation-delay: 0.372s; }
+  .c200 { animation-delay: 0.384s; }
+  .c201 { animation-delay: 0.396s; }
+  .c202 { animation-delay: 0.408s; }
+  .c203 { animation-delay: 0.348s; }
+  .c204 { animation-delay: 0.360s; }
+  .c205 { animation-delay: 0.372s; }
+  .c206 { animation-delay: 0.384s; }
+  .c207 { animation-delay: 0.396s; }
+  .c208 { animation-delay: 0.408s; }
+  .c209 { animation-delay: 0.420s; }
+  .c210 { animation-delay: 0.360s; }
+  .c211 { animation-delay: 0.372s; }
+  .c212 { animation-delay: 0.384s; }
+  .c213 { animation-delay: 0.396s; }
+  .c214 { animation-delay: 0.408s; }
+  .c215 { animation-delay: 0.420s; }
+  .c216 { animation-delay: 0.432s; }
+  .c217 { animation-delay: 0.372s; }
+  .c218 { animation-delay: 0.384s; }
+  .c219 { animation-delay: 0.396s; }
+  .c220 { animation-delay: 0.408s; }
+  .c221 { animation-delay: 0.420s; }
+  .c222 { animation-delay: 0.432s; }
+  .c223 { animation-delay: 0.444s; }
+  .c224 { animation-delay: 0.384s; }
+  .c225 { animation-delay: 0.396s; }
+  .c226 { animation-delay: 0.408s; }
+  .c227 { animation-delay: 0.420s; }
+  .c228 { animation-delay: 0.432s; }
+  .c229 { animation-delay: 0.444s; }
+  .c230 { animation-delay: 0.456s; }
+  .c231 { animation-delay: 0.396s; }
+  .c232 { animation-delay: 0.408s; }
+  .c233 { animation-delay: 0.420s; }
+  .c234 { animation-delay: 0.432s; }
+  .c235 { animation-delay: 0.444s; }
+  .c236 { animation-delay: 0.456s; }
+  .c237 { animation-delay: 0.468s; }
+  .c238 { animation-delay: 0.408s; }
+  .c239 { animation-delay: 0.420s; }
+  .c240 { animation-delay: 0.432s; }
+  .c241 { animation-delay: 0.444s; }
+  .c242 { animation-delay: 0.456s; }
+  .c243 { animation-delay: 0.468s; }
+  .c244 { animation-delay: 0.480s; }
+  .c245 { animation-delay: 0.420s; }
+  .c246 { animation-delay: 0.432s; }
+  .c247 { animation-delay: 0.444s; }
+  .c248 { animation-delay: 0.456s; }
+  .c249 { animation-delay: 0.468s; }
+  .c250 { animation-delay: 0.480s; }
+  .c251 { animation-delay: 0.492s; }
+  .c252 { animation-delay: 0.432s; }
+  .c253 { animation-delay: 0.444s; }
+  .c254 { animation-delay: 0.456s; }
+  .c255 { animation-delay: 0.468s; }
+  .c256 { animation-delay: 0.480s; }
+  .c257 { animation-delay: 0.492s; }
+  .c258 { animation-delay: 0.504s; }
+  .c259 { animation-delay: 0.444s; }
+  .c260 { animation-delay: 0.456s; }
+  .c261 { animation-delay: 0.468s; }
+  .c262 { animation-delay: 0.480s; }
+  .c263 { animation-delay: 0.492s; }
+  .c264 { animation-delay: 0.504s; }
+  .c265 { animation-delay: 0.516s; }
+  .c266 { animation-delay: 0.456s; }
+  .c267 { animation-delay: 0.468s; }
+  .c268 { animation-delay: 0.480s; }
+  .c269 { animation-delay: 0.492s; }
+  .c270 { animation-delay: 0.504s; }
+  .c271 { animation-delay: 0.516s; }
+  .c272 { animation-delay: 0.528s; }
+  .c273 { animation-delay: 0.468s; }
+  .c274 { animation-delay: 0.480s; }
+  .c275 { animation-delay: 0.492s; }
+  .c276 { animation-delay: 0.504s; }
+  .c277 { animation-delay: 0.516s; }
+  .c278 { animation-delay: 0.528s; }
+  .c279 { animation-delay: 0.540s; }
+  .c280 { animation-delay: 0.480s; }
+  .c281 { animation-delay: 0.492s; }
+  .c282 { animation-delay: 0.504s; }
+  .c283 { animation-delay: 0.516s; }
+  .c284 { animation-delay: 0.528s; }
+  .c285 { animation-delay: 0.540s; }
+  .c286 { animation-delay: 0.552s; }
+  .c287 { animation-delay: 0.492s; }
+  .c288 { animation-delay: 0.504s; }
+  .c289 { animation-delay: 0.516s; }
+  .c290 { animation-delay: 0.528s; }
+  .c291 { animation-delay: 0.540s; }
+  .c292 { animation-delay: 0.552s; }
+  .c293 { animation-delay: 0.564s; }
+  .c294 { animation-delay: 0.504s; }
+  .c295 { animation-delay: 0.516s; }
+  .c296 { animation-delay: 0.528s; }
+  .c297 { animation-delay: 0.540s; }
+  .c298 { animation-delay: 0.552s; }
+  .c299 { animation-delay: 0.564s; }
+  .c300 { animation-delay: 0.576s; }
+  .c301 { animation-delay: 0.516s; }
+  .c302 { animation-delay: 0.528s; }
+  .c303 { animation-delay: 0.540s; }
+  .c304 { animation-delay: 0.552s; }
+  .c305 { animation-delay: 0.564s; }
+  .c306 { animation-delay: 0.576s; }
+  .c307 { animation-delay: 0.588s; }
+  .c308 { animation-delay: 0.528s; }
+  .c309 { animation-delay: 0.540s; }
+  .c310 { animation-delay: 0.552s; }
+  .c311 { animation-delay: 0.564s; }
+  .c312 { animation-delay: 0.576s; }
+  .c313 { animation-delay: 0.588s; }
+  .c314 { animation-delay: 0.600s; }
+  .c315 { animation-delay: 0.540s; }
+  .c316 { animation-delay: 0.552s; }
+  .c317 { animation-delay: 0.564s; }
+  .c318 { animation-delay: 0.576s; }
+  .c319 { animation-delay: 0.588s; }
+  .c320 { animation-delay: 0.600s; }
+  .c321 { animation-delay: 0.612s; }
+  .c322 { animation-delay: 0.552s; }
+  .c323 { animation-delay: 0.564s; }
+  .c324 { animation-delay: 0.576s; }
+  .c325 { animation-delay: 0.588s; }
+  .c326 { animation-delay: 0.600s; }
+  .c327 { animation-delay: 0.612s; }
+  .c328 { animation-delay: 0.624s; }
+  .c329 { animation-delay: 0.564s; }
+  .c330 { animation-delay: 0.576s; }
+  .c331 { animation-delay: 0.588s; }
+  .c332 { animation-delay: 0.600s; }
+  .c333 { animation-delay: 0.612s; }
+  .c334 { animation-delay: 0.624s; }
+  .c335 { animation-delay: 0.636s; }
+  .c336 { animation-delay: 0.576s; }
+  .c337 { animation-delay: 0.588s; }
+  .c338 { animation-delay: 0.600s; }
+  .c339 { animation-delay: 0.612s; }
+  .c340 { animation-delay: 0.624s; }
+  .c341 { animation-delay: 0.636s; }
+  .c342 { animation-delay: 0.648s; }
+  .c343 { animation-delay: 0.588s; }
+  .c344 { animation-delay: 0.600s; }
+  .c345 { animation-delay: 0.612s; }
+  .c346 { animation-delay: 0.624s; }
+  .c347 { animation-delay: 0.636s; }
+  .c348 { animation-delay: 0.648s; }
+  .c349 { animation-delay: 0.660s; }
+  .c350 { animation-delay: 0.600s; }
+  .c351 { animation-delay: 0.612s; }
+  .c352 { animation-delay: 0.624s; }
+  .c353 { animation-delay: 0.636s; }
+  .c354 { animation-delay: 0.648s; }
+  .c355 { animation-delay: 0.660s; }
+  .c356 { animation-delay: 0.672s; }
+  .c357 { animation-delay: 0.612s; }
+  .c358 { animation-delay: 0.624s; }
+  .c359 { animation-delay: 0.636s; }
+  .c360 { animation-delay: 0.648s; }
+  .c361 { animation-delay: 0.660s; }
+  .c362 { animation-delay: 0.672s; }
+  .c363 { animation-delay: 0.684s; }
+  .c364 { animation-delay: 0.624s; }
+  .c365 { animation-delay: 0.636s; }
+  .c366 { animation-delay: 0.648s; }
+  .c367 { animation-delay: 0.660s; }
+  .c368 { animation-delay: 0.672s; }
+  .c369 { animation-delay: 0.684s; }
+  .c370 { animation-delay: 0.696s; }
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .label { font-family: 'Courier New', monospace; font-size: 10px; fill: #8b949e; }
+  .title { font-family: 'Courier New', monospace; font-size: 12px; fill: #c9d1d9; font-weight: bold; }
+  .stat  { font-family: 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+</style>
+<rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+<text x="50" y="32" class="label">Nov</text>
+<text x="125" y="32" class="label">Dec</text>
+<text x="185" y="32" class="label">Jan</text>
+<text x="245" y="32" class="label">Feb</text>
+<text x="305" y="32" class="label">Mar</text>
+<text x="380" y="32" class="label">Apr</text>
+<text x="440" y="32" class="label">May</text>
+<text x="515" y="32" class="label">Jun</text>
+<text x="575" y="32" class="label">Jul</text>
+<text x="635" y="32" class="label">Aug</text>
+<text x="710" y="32" class="label">Sep</text>
+<text x="770" y="32" class="label">Oct</text>
+<text x="830" y="32" class="label">Nov</text>
+<text x="20" y="51" class="label">Mon</text>
+<text x="20" y="81" class="label">Wed</text>
+<text x="20" y="111" class="label">Fri</text>
+<rect x="50" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c0" />
+<rect x="50" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c1" />
+<rect x="50" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c2" />
+<rect x="50" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c3" />
+<rect x="50" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c4" />
+<rect x="50" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c5" />
+<rect x="50" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c6" />
+<rect x="65" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c7" />
+<rect x="65" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c8" />
+<rect x="65" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c9" />
+<rect x="65" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c10" />
+<rect x="65" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c11" />
+<rect x="65" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c12" />
+<rect x="65" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c13" />
+<rect x="80" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c14" />
+<rect x="80" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c15" />
+<rect x="80" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c16" />
+<rect x="80" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c17" />
+<rect x="80" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c18" />
+<rect x="80" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c19" />
+<rect x="80" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c20" />
+<rect x="95" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c21" />
+<rect x="95" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c22" />
+<rect x="95" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c23" />
+<rect x="95" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c24" />
+<rect x="95" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c25" />
+<rect x="95" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c26" />
+<rect x="95" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c27" />
+<rect x="110" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c28" />
+<rect x="110" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c29" />
+<rect x="110" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c30" />
+<rect x="110" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c31" />
+<rect x="110" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c32" />
+<rect x="110" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c33" />
+<rect x="110" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c34" />
+<rect x="125" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c35" />
+<rect x="125" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c36" />
+<rect x="125" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c37" />
+<rect x="125" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c38" />
+<rect x="125" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c39" />
+<rect x="125" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c40" />
+<rect x="125" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c41" />
+<rect x="140" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c42" />
+<rect x="140" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c43" />
+<rect x="140" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c44" />
+<rect x="140" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c45" />
+<rect x="140" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c46" />
+<rect x="140" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c47" />
+<rect x="140" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c48" />
+<rect x="155" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c49" />
+<rect x="155" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c50" />
+<rect x="155" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c51" />
+<rect x="155" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c52" />
+<rect x="155" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c53" />
+<rect x="155" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c54" />
+<rect x="155" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c55" />
+<rect x="170" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c56" />
+<rect x="170" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c57" />
+<rect x="170" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c58" />
+<rect x="170" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c59" />
+<rect x="170" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c60" />
+<rect x="170" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c61" />
+<rect x="170" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c62" />
+<rect x="185" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c63" />
+<rect x="185" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c64" />
+<rect x="185" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c65" />
+<rect x="185" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c66" />
+<rect x="185" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c67" />
+<rect x="185" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c68" />
+<rect x="185" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c69" />
+<rect x="200" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c70" />
+<rect x="200" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c71" />
+<rect x="200" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c72" />
+<rect x="200" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c73" />
+<rect x="200" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c74" />
+<rect x="200" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c75" />
+<rect x="200" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c76" />
+<rect x="215" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c77" />
+<rect x="215" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c78" />
+<rect x="215" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c79" />
+<rect x="215" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c80" />
+<rect x="215" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c81" />
+<rect x="215" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c82" />
+<rect x="215" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c83" />
+<rect x="230" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c84" />
+<rect x="230" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c85" />
+<rect x="230" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c86" />
+<rect x="230" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c87" />
+<rect x="230" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c88" />
+<rect x="230" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c89" />
+<rect x="230" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c90" />
+<rect x="245" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c91" />
+<rect x="245" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c92" />
+<rect x="245" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c93" />
+<rect x="245" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c94" />
+<rect x="245" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c95" />
+<rect x="245" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c96" />
+<rect x="245" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c97" />
+<rect x="260" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c98" />
+<rect x="260" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c99" />
+<rect x="260" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c100" />
+<rect x="260" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c101" />
+<rect x="260" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c102" />
+<rect x="260" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c103" />
+<rect x="260" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c104" />
+<rect x="275" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c105" />
+<rect x="275" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c106" />
+<rect x="275" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c107" />
+<rect x="275" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c108" />
+<rect x="275" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c109" />
+<rect x="275" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c110" />
+<rect x="275" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c111" />
+<rect x="290" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c112" />
+<rect x="290" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c113" />
+<rect x="290" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c114" />
+<rect x="290" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c115" />
+<rect x="290" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c116" />
+<rect x="290" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c117" />
+<rect x="290" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c118" />
+<rect x="305" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c119" />
+<rect x="305" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c120" />
+<rect x="305" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c121" />
+<rect x="305" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c122" />
+<rect x="305" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c123" />
+<rect x="305" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c124" />
+<rect x="305" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c125" />
+<rect x="320" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c126" />
+<rect x="320" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c127" />
+<rect x="320" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c128" />
+<rect x="320" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c129" />
+<rect x="320" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c130" />
+<rect x="320" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c131" />
+<rect x="320" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c132" />
+<rect x="335" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c133" />
+<rect x="335" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c134" />
+<rect x="335" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c135" />
+<rect x="335" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c136" />
+<rect x="335" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c137" />
+<rect x="335" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c138" />
+<rect x="335" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c139" />
+<rect x="350" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c140" />
+<rect x="350" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c141" />
+<rect x="350" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c142" />
+<rect x="350" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c143" />
+<rect x="350" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c144" />
+<rect x="350" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c145" />
+<rect x="350" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c146" />
+<rect x="365" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c147" />
+<rect x="365" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c148" />
+<rect x="365" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c149" />
+<rect x="365" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c150" />
+<rect x="365" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c151" />
+<rect x="365" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c152" />
+<rect x="365" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c153" />
+<rect x="380" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c154" />
+<rect x="380" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c155" />
+<rect x="380" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c156" />
+<rect x="380" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c157" />
+<rect x="380" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c158" />
+<rect x="380" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c159" />
+<rect x="380" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c160" />
+<rect x="395" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c161" />
+<rect x="395" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c162" />
+<rect x="395" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c163" />
+<rect x="395" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c164" />
+<rect x="395" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c165" />
+<rect x="395" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c166" />
+<rect x="395" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c167" />
+<rect x="410" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c168" />
+<rect x="410" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c169" />
+<rect x="410" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c170" />
+<rect x="410" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c171" />
+<rect x="410" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c172" />
+<rect x="410" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c173" />
+<rect x="410" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c174" />
+<rect x="425" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c175" />
+<rect x="425" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c176" />
+<rect x="425" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c177" />
+<rect x="425" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c178" />
+<rect x="425" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c179" />
+<rect x="425" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c180" />
+<rect x="425" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c181" />
+<rect x="440" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c182" />
+<rect x="440" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c183" />
+<rect x="440" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c184" />
+<rect x="440" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c185" />
+<rect x="440" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c186" />
+<rect x="440" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c187" />
+<rect x="440" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c188" />
+<rect x="455" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c189" />
+<rect x="455" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c190" />
+<rect x="455" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c191" />
+<rect x="455" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c192" />
+<rect x="455" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c193" />
+<rect x="455" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c194" />
+<rect x="455" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c195" />
+<rect x="470" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c196" />
+<rect x="470" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c197" />
+<rect x="470" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c198" />
+<rect x="470" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c199" />
+<rect x="470" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c200" />
+<rect x="470" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c201" />
+<rect x="470" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c202" />
+<rect x="485" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c203" />
+<rect x="485" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c204" />
+<rect x="485" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c205" />
+<rect x="485" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c206" />
+<rect x="485" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c207" />
+<rect x="485" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c208" />
+<rect x="485" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c209" />
+<rect x="500" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c210" />
+<rect x="500" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c211" />
+<rect x="500" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c212" />
+<rect x="500" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c213" />
+<rect x="500" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c214" />
+<rect x="500" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c215" />
+<rect x="500" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c216" />
+<rect x="515" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c217" />
+<rect x="515" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c218" />
+<rect x="515" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c219" />
+<rect x="515" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c220" />
+<rect x="515" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c221" />
+<rect x="515" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c222" />
+<rect x="515" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c223" />
+<rect x="530" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c224" />
+<rect x="530" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c225" />
+<rect x="530" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c226" />
+<rect x="530" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c227" />
+<rect x="530" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c228" />
+<rect x="530" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c229" />
+<rect x="530" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c230" />
+<rect x="545" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c231" />
+<rect x="545" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c232" />
+<rect x="545" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c233" />
+<rect x="545" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c234" />
+<rect x="545" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c235" />
+<rect x="545" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c236" />
+<rect x="545" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c237" />
+<rect x="560" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c238" />
+<rect x="560" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c239" />
+<rect x="560" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c240" />
+<rect x="560" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c241" />
+<rect x="560" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c242" />
+<rect x="560" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c243" />
+<rect x="560" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c244" />
+<rect x="575" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c245" />
+<rect x="575" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c246" />
+<rect x="575" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c247" />
+<rect x="575" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c248" />
+<rect x="575" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c249" />
+<rect x="575" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c250" />
+<rect x="575" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c251" />
+<rect x="590" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c252" />
+<rect x="590" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c253" />
+<rect x="590" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c254" />
+<rect x="590" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c255" />
+<rect x="590" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c256" />
+<rect x="590" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c257" />
+<rect x="590" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c258" />
+<rect x="605" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c259" />
+<rect x="605" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c260" />
+<rect x="605" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c261" />
+<rect x="605" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c262" />
+<rect x="605" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c263" />
+<rect x="605" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c264" />
+<rect x="605" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c265" />
+<rect x="620" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c266" />
+<rect x="620" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c267" />
+<rect x="620" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c268" />
+<rect x="620" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c269" />
+<rect x="620" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c270" />
+<rect x="620" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c271" />
+<rect x="620" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c272" />
+<rect x="635" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c273" />
+<rect x="635" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c274" />
+<rect x="635" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c275" />
+<rect x="635" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c276" />
+<rect x="635" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c277" />
+<rect x="635" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c278" />
+<rect x="635" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c279" />
+<rect x="650" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c280" />
+<rect x="650" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c281" />
+<rect x="650" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c282" />
+<rect x="650" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c283" />
+<rect x="650" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c284" />
+<rect x="650" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c285" />
+<rect x="650" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c286" />
+<rect x="665" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c287" />
+<rect x="665" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c288" />
+<rect x="665" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c289" />
+<rect x="665" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c290" />
+<rect x="665" y="100" width="12" height="12" rx="2" fill="#39d353" class="cell c291" />
+<rect x="665" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c292" />
+<rect x="665" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c293" />
+<rect x="680" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c294" />
+<rect x="680" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c295" />
+<rect x="680" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c296" />
+<rect x="680" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c297" />
+<rect x="680" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c298" />
+<rect x="680" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c299" />
+<rect x="680" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c300" />
+<rect x="695" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c301" />
+<rect x="695" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c302" />
+<rect x="695" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c303" />
+<rect x="695" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c304" />
+<rect x="695" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c305" />
+<rect x="695" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c306" />
+<rect x="695" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c307" />
+<rect x="710" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c308" />
+<rect x="710" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c309" />
+<rect x="710" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c310" />
+<rect x="710" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c311" />
+<rect x="710" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c312" />
+<rect x="710" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c313" />
+<rect x="710" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c314" />
+<rect x="725" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c315" />
+<rect x="725" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c316" />
+<rect x="725" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c317" />
+<rect x="725" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c318" />
+<rect x="725" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c319" />
+<rect x="725" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c320" />
+<rect x="725" y="130" width="12" height="12" rx="2" fill="#0e4429" class="cell c321" />
+<rect x="740" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c322" />
+<rect x="740" y="55" width="12" height="12" rx="2" fill="#26a641" class="cell c323" />
+<rect x="740" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c324" />
+<rect x="740" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c325" />
+<rect x="740" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c326" />
+<rect x="740" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c327" />
+<rect x="740" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c328" />
+<rect x="755" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c329" />
+<rect x="755" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c330" />
+<rect x="755" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c331" />
+<rect x="755" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c332" />
+<rect x="755" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c333" />
+<rect x="755" y="115" width="12" height="12" rx="2" fill="#0e4429" class="cell c334" />
+<rect x="755" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c335" />
+<rect x="770" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c336" />
+<rect x="770" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c337" />
+<rect x="770" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c338" />
+<rect x="770" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c339" />
+<rect x="770" y="100" width="12" height="12" rx="2" fill="#26a641" class="cell c340" />
+<rect x="770" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c341" />
+<rect x="770" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c342" />
+<rect x="785" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c343" />
+<rect x="785" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c344" />
+<rect x="785" y="70" width="12" height="12" rx="2" fill="#006d32" class="cell c345" />
+<rect x="785" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c346" />
+<rect x="785" y="100" width="12" height="12" rx="2" fill="#006d32" class="cell c347" />
+<rect x="785" y="115" width="12" height="12" rx="2" fill="#006d32" class="cell c348" />
+<rect x="785" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c349" />
+<rect x="800" y="40" width="12" height="12" rx="2" fill="#006d32" class="cell c350" />
+<rect x="800" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c351" />
+<rect x="800" y="70" width="12" height="12" rx="2" fill="#26a641" class="cell c352" />
+<rect x="800" y="85" width="12" height="12" rx="2" fill="#006d32" class="cell c353" />
+<rect x="800" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c354" />
+<rect x="800" y="115" width="12" height="12" rx="2" fill="#39d353" class="cell c355" />
+<rect x="800" y="130" width="12" height="12" rx="2" fill="#26a641" class="cell c356" />
+<rect x="815" y="40" width="12" height="12" rx="2" fill="#26a641" class="cell c357" />
+<rect x="815" y="55" width="12" height="12" rx="2" fill="#006d32" class="cell c358" />
+<rect x="815" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c359" />
+<rect x="815" y="85" width="12" height="12" rx="2" fill="#26a641" class="cell c360" />
+<rect x="815" y="100" width="12" height="12" rx="2" fill="#0e4429" class="cell c361" />
+<rect x="815" y="115" width="12" height="12" rx="2" fill="#26a641" class="cell c362" />
+<rect x="815" y="130" width="12" height="12" rx="2" fill="#006d32" class="cell c363" />
+<rect x="830" y="40" width="12" height="12" rx="2" fill="#39d353" class="cell c364" />
+<rect x="830" y="55" width="12" height="12" rx="2" fill="#161b22" class="cell c365" />
+<rect x="830" y="70" width="12" height="12" rx="2" fill="#161b22" class="cell c366" />
+<rect x="830" y="85" width="12" height="12" rx="2" fill="#161b22" class="cell c367" />
+<rect x="830" y="100" width="12" height="12" rx="2" fill="#161b22" class="cell c368" />
+<rect x="830" y="115" width="12" height="12" rx="2" fill="#161b22" class="cell c369" />
+<rect x="830" y="130" width="12" height="12" rx="2" fill="#161b22" class="cell c370" />
+<text x="50" y="171" class="label">Less</text>
+<rect x="85" y="161" width="12" height="12" rx="2" fill="#161b22" />
+<rect x="100" y="161" width="12" height="12" rx="2" fill="#0e4429" />
+<rect x="115" y="161" width="12" height="12" rx="2" fill="#006d32" />
+<rect x="130" y="161" width="12" height="12" rx="2" fill="#26a641" />
+<rect x="145" y="161" width="12" height="12" rx="2" fill="#39d353" />
+<rect x="160" y="161" width="12" height="12" rx="2" fill="#69f0a0" />
+<text x="180" y="171" class="label">More</text>
+<text x="50" y="189" class="stat">Total: 0  │  Current Streak: 365d  │  Longest: 365d  │  Best: 2025-11-02 (0)</text>
+</svg>
