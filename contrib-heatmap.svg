@@ -777,5 +777,5 @@
 <rect x="145" y="161" width="12" height="12" rx="2" fill="#39d353" />
 <rect x="160" y="161" width="12" height="12" rx="2" fill="#69f0a0" />
 <text x="180" y="171" class="label">More</text>
-<text x="50" y="189" class="stat">Total: 0  │  Current Streak: 365d  │  Longest: 365d  │  Best: 2025-11-02 (0)</text>
+<text x="50" y="189" class="stat">Total: 0  │  Current Streak: 0d  │  Longest: 365d  │  Best: 2025-11-02 (0)</text>
 </svg>
