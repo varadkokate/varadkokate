@@ -765,7 +765,7 @@
 <rect x="830" y="40" width="12" height="12" rx="2" fill="#0e4429" class="cell c364" />
 <rect x="830" y="55" width="12" height="12" rx="2" fill="#0e4429" class="cell c365" />
 <rect x="830" y="70" width="12" height="12" rx="2" fill="#0e4429" class="cell c366" />
-<rect x="830" y="85" width="12" height="12" rx="2" fill="#161b22" class="cell c367" />
+<rect x="830" y="85" width="12" height="12" rx="2" fill="#0e4429" class="cell c367" />
 <rect x="830" y="100" width="12" height="12" rx="2" fill="#161b22" class="cell c368" />
 <rect x="830" y="115" width="12" height="12" rx="2" fill="#161b22" class="cell c369" />
 <rect x="830" y="130" width="12" height="12" rx="2" fill="#161b22" class="cell c370" />
@@ -777,5 +777,5 @@
 <rect x="145" y="161" width="12" height="12" rx="2" fill="#39d353" />
 <rect x="160" y="161" width="12" height="12" rx="2" fill="#69f0a0" />
 <text x="180" y="171" class="label">More</text>
-<text x="50" y="189" class="stat">Total: 0  │  Current Streak: 0d  │  Longest: 367d  │  Best: 2025-11-09 (0)</text>
+<text x="50" y="189" class="stat">Total: 0  │  Current Streak: 0d  │  Longest: 368d  │  Best: 2025-11-09 (0)</text>
 </svg>
